@@ -47,7 +47,7 @@ if(isset($_POST['send_email'])){
   echo '
   <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
   <script type="text/javascript">
-    emailjs.init("3LStvFd1W_0kLm7GB"); // Înlocuiți cu ID-ul utilizatorului dvs. EmailJS
+    emailjs.init(""); // Înlocuiți cu ID-ul utilizatorului dvs. EmailJS
 
     var name = "'.$name.'";
     var username = "'.$username.'";
