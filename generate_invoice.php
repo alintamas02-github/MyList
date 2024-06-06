@@ -6,7 +6,7 @@ require('fpdf/fpdf.php'); // Include the FPDF class
 // Define the 'MyList' company details
 define('COMPANY_LOGO', 'path/to/logo.png'); // Replace with the path to your company logo.
 define('COMPANY_NAME', 'MyList');
-define('COMPANY_ADDRESS', 'str. Timisoara , jud. Timis');
+define('COMPANY_ADDRESS', 'Romania');
 define('COMPANY_EMAIL', 'contact@mylist.com');
 define('COMPANY_PHONE', '+720 000 000');
 define('TAX_RATE', 0.2); // 20% Tax rate for example

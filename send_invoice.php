@@ -21,9 +21,9 @@
   }
 
   // Alte variabile pentru email
-  $name = 'Alin';
-  $username = 'Admn';
-  $user_level = 'Admin';
+  $name = '';
+  $username = '';
+  $user_level = '';
 ?>
 
 <?php include_once('layouts/header.php'); ?>
@@ -48,7 +48,7 @@
           echo '
           <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
           <script type="text/javascript">
-            emailjs.init("3LStvFd1W_0kLm7GB"); // Înlocuiți cu ID-ul utilizatorului dvs. EmailJS
+            emailjs.init(""); // Înlocuiți cu ID-ul utilizatorului dvs. EmailJS
 
 var name = "'.$name.'";
             var username = "'.$username.'";
@@ -56,14 +56,14 @@ var name = "'.$name.'";
             var total = "'.$total.'"; // Adăugați totalul calculat aici
 
             var params = {
-              to_email: "alintamas26@gmail.com", // Adresa de email a destinatarului
+              to_email: "", // Adresa de email a destinatarului
 from_name: name,
               from_username: username,
               user_level: level,
               total: total // Includeți totalul în parametrii email-ului
             };
 
-            emailjs.send("service_2wkh275", "template_c0pvo38", params)
+            emailjs.send("", "", params)
               .then(function (response) {
                 console.log("Email trimis cu succes!", response);
               })
