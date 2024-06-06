@@ -54,13 +54,13 @@ if(isset($_POST['send_email'])){
     var level = "'.$user_level.'";
 
     var params = {
-      to_email: "alintamas26@gmail.com", // Adresa de email a destinatarului
+      to_email: "", // Adresa de email a destinatarului
       from_name: name,
       from_username: username,
       user_level: level,
     };
 
-    emailjs.send("service_2wkh275", "template_h8gx0rr", params)
+    emailjs.send("", "", params)
       .then(function (response) {
         console.log("Email trimis cu succes!", response);
       })
